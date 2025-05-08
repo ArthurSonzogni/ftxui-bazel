@@ -1,0 +1,9 @@
+module(
+    name = "ftxui_bazel_demo",
+    version = "0.1.0",
+)
+
+bazel_dep(
+    name = "ftxui",
+    version = "6.1.9",
+)

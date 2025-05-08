@@ -1,0 +1,15 @@
+package(default_visibility = ["//visibility:public"])
+
+# Example using ftxui:dom
+cc_binary(
+    name = "hello_ftxui_dom",
+    srcs = ["hello_ftxui_dom.cpp"],
+    deps = ["@ftxui//:dom"],
+)
+
+# Example using ftxui:component
+cc_binary(
+    name = "hello_ftxui_component",
+    srcs = ["hello_ftxui_component.cpp"],
+    deps = ["@ftxui//:component"],
+)
